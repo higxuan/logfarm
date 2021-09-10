@@ -1,7 +1,7 @@
 package logfarm_test
 
 import (
-	"logfarm"
+	"github.com/higxuan/logfarm"
 	"testing"
 	"time"
 )

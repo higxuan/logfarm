@@ -3,7 +3,7 @@ package logfarm
 import (
 	"fmt"
 	"io/ioutil"
-	"logfarm/files"
+	"github.com/higxuan/logfarm/files"
 	"os"
 	"path/filepath"
 	"sort"
