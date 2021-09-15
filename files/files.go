@@ -136,7 +136,7 @@ func (p *fileGem) SetReadBufLength(l int) error {
 func (p *fileGem) write(name string, b []byte, flag int) (n int, err error) {
 
 	callback := func() error {
-		fi, e := p.tryOpenFile(name, os.O_CREATE|os.O_WRONLY|flag, FileModeReadWrite)
+		fi, e := p.tryOpenFile(name, os.O_RDWR|os.O_CREATE|flag, FileModeReadWrite)
 		if e != nil {
 			return e
 		}

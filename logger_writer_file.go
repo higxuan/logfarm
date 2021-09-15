@@ -2,8 +2,8 @@ package logfarm
 
 import (
 	"fmt"
-	"io/ioutil"
 	"github.com/higxuan/logfarm/files"
+	"io/ioutil"
 	"os"
 	"path/filepath"
 	"sort"
